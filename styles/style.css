@@ -1,5 +1,11 @@
 @import url(./normalize.css);
 @import url(./reset.css);
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* 본문 스타일 */
 body {
   background: #ffc;
@@ -15,14 +21,13 @@ body {
 .main,
 .slogan {
   width: 940px;
-  box-sizing: border-box;
   margin: 0 auto;
 }
 /* 헤더 */
 .header {
   background: pink;
-  padding: 0 30px;
   height: 15vh;
+  padding: 0 30px;
 }
 /* 비주얼 */
 .visual {
@@ -33,7 +38,31 @@ body {
 .main {
   background: lightgreen;
   height: 50vh;
+  display: flow-root;
+  padding: 0 15px;
 }
+
+.group {
+  margin: 0 15px;
+  float: left;
+}
+
+.group1 {
+  background-color: violet;
+  width: 250px;
+  float: left;
+}
+.group2 {
+  background-color: salmon;
+  width: 380px;
+  float: left;
+}
+.group3 {
+  background-color: gold;
+  width: 190px;
+  float: left;
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
