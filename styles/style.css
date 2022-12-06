@@ -1,5 +1,13 @@
 @import url(./normalize.css);
 @import url(./reset.css);
+
+/* 숨김 컨텐츠 */
+.a11y-hidden {
+  background-color: yellow;
+  position: absolute;
+  top: -9999em;
+}
+
 /* 기본 스타일 */
 *,
 *::before,
@@ -40,10 +48,9 @@ body {
 /* 헤더 */
 .header {
   background: #fff;
-  height: 15vh;
   padding: 0 30px;
   border-radius: 0 0 15px 15px;
-  position: inherit;
+  position: relative;
 }
 /* 로고 */
 .logo {
