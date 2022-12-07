@@ -88,18 +88,13 @@ body {
   text-transform: uppercase;
 }
 
-/* 마지막 li 요소에 포함된 a 요소를 선택하여 오른쪽 padding 값을 0으로 재정의 하는 방법 */
-/* .member li:last-child a {
-  padding-right: 0;
-} */
-
 .divider {
   margin-right: 4px;
 }
 
 /* 메인 메뉴 */
 .navigation {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .menu {
@@ -152,9 +147,9 @@ body {
 }
 
 .sub-menu {
-  background-color: pink;
   position: absolute;
   top: 47px;
+  padding: 4px 0;
   display: none;
 }
 
@@ -177,7 +172,6 @@ body {
 
 .sub-menu li {
   display: inline-block;
-  background-color: gold;
   padding-left: 1em;
 }
 
@@ -201,6 +195,16 @@ body {
 .sub-menu a:hover::before,
 .sub-menu a:focus::before {
   content: "\e801";
+}
+
+.sub-menu a:hover,
+.sub-menu a:focus {
+  color: #f00;
+}
+
+.sub-menu a {
+  display: inline-block;
+  padding: 6px 0;
 }
 
 /* 비주얼 */
