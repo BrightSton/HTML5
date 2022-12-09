@@ -372,17 +372,49 @@ body {
   background-color: #fff;
   border-radius: 0 0 5px 5px;
   padding: 4px 10px;
+  /* flex 사용
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
+  justify-content: space-between; */
+
+  /* float 사용
+  display: flow-root; */
+
+  /* inline-block 사용 */
+  font-size: 0;
 }
 
-.sign li {
+/* flex */
+/* .sign li {
   margin-top: 4px;
+} */
+
+/* inline-block */
+.sign li {
+  display: inline-block;
+  font-size: 14px;
 }
+
+.sign li:first-child {
+  width: 35%;
+}
+
+.sign li:last-child {
+  width: 65%;
+  text-align: right;
+}
+
+/* float */
+/* .sign li:first-child {
+  float: left;
+}
+
+.sign li:last-child {
+  float: right;
+} */
 
 .sign a {
-  display: block;
+  display: inline-block;
   padding: 6px 0;
   letter-spacing: -1px;
 }
