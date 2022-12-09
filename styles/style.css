@@ -430,6 +430,31 @@ body {
   margin-right: 3px;
 }
 
+/* 유효성 검사 배너 */
+.validation-list {
+  background-color: yellow;
+  margin-top: 25px;
+}
+
+.validation-list li {
+  margin-top: 10px;
+  background: no-repeat 20px 50%;
+}
+
+.validation-list a {
+  display: block;
+  background: url(./images/validation_icon.png) no-repeat 25px 50%,
+    #ccc linear-gradient(to bottom, #ccc, #eee);
+  padding: 8px 15px 8px 50px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+
+.validation-list a:hover,
+.validation-list:focus {
+  color: #f00;
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
