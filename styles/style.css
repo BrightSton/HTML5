@@ -371,7 +371,27 @@ body {
 .sign {
   background-color: #fff;
   border-radius: 0 0 5px 5px;
-  padding: 0 10px 10px 10px;
+  padding: 4px 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.sign li {
+  margin-top: 4px;
+}
+
+.sign a {
+  display: block;
+  padding: 6px 0;
+  letter-spacing: -1px;
+}
+
+.sign a::before {
+  content: "\e804";
+  font-family: "fontello";
+  color: orangered;
+  margin-right: 3px;
 }
 
 /* 슬로건 */
