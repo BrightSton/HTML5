@@ -389,6 +389,19 @@ body {
   margin-top: 4px;
 } */
 
+/* float */
+/*.sign li {
+  display: block;
+}
+
+.sign li:first-child {
+  float: left;
+}
+
+.sign li:last-child {
+  float: right;
+} */
+
 /* inline-block */
 .sign li {
   display: inline-block;
@@ -403,15 +416,6 @@ body {
   width: 65%;
   text-align: right;
 }
-
-/* float */
-/* .sign li:first-child {
-  float: left;
-}
-
-.sign li:last-child {
-  float: right;
-} */
 
 .sign a {
   display: inline-block;
