@@ -480,10 +480,20 @@ body {
   display: flow-root;
 }
 
-.term-list-subject {
-  background-color: lime;
+.term-list-subject,
+.term-list-brief {
   float: right;
   width: 145px;
+}
+
+.term-list-subject {
+  color: #296897;
+  font-weight: 500;
+}
+
+.term-list-brief {
+  margin-top: 5px;
+  line-height: 1.5;
 }
 
 .term-list-thumbnail {
@@ -494,10 +504,14 @@ body {
   vertical-align: middle;
 }
 
+.even .term-list-subject,
 .term-list-brief {
-  background-color: coral;
+  float: left;
+}
+
+.even .term-list-thumbnail {
+  background-color: purple;
   float: right;
-  width: 145px;
 }
 
 /* 슬로건 */
