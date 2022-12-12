@@ -456,7 +456,6 @@ body {
 
 /* 웹 관련 용어 */
 .term {
-  /* background-color: yellow; */
   margin-top: 20px;
   border: 1px solid #aaa;
   border-radius: 5px;
@@ -470,12 +469,10 @@ body {
 }
 
 .term-list {
-  background-color: yellow;
   margin-top: 10px;
 }
 
 .term-list div {
-  background-color: pink;
   margin-top: 10px;
   display: flow-root;
 }
@@ -497,7 +494,6 @@ body {
 }
 
 .term-list-thumbnail {
-  background-color: purple;
   float: left;
 }
 .term-list-thumbnail img {
@@ -510,7 +506,6 @@ body {
 }
 
 .even .term-list-thumbnail {
-  background-color: purple;
   float: right;
 }
 
