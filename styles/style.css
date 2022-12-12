@@ -529,7 +529,8 @@ body {
 }
 
 .form-group-label {
-  white-space: nowrap;
+  /* white-space: nowrap; -> 모든 폼에 줄바꿈이 안일어남 */
+  flex-shrink: 0; /* flex일 때에 줄바꿈 일어나지 않음*/
   margin-right: 10px;
 }
 
@@ -544,7 +545,8 @@ body {
 }
 
 .search-button {
-  white-space: nowrap;
+  /* white-space: nowrap; -> 모든 폼에 줄바꿈이 안일어남 */
+  flex-shrink: 0; /* flex일 때에 줄바꿈 일어나지 않음*/
   background-color: #000;
   color: #fff;
   border: 0;
