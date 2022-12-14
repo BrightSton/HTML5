@@ -462,8 +462,8 @@ body {
 }
 
 .term-title {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .term-list {
@@ -498,12 +498,12 @@ body {
   vertical-align: middle;
 }
 
-.even .term-list-subject,
-.term-list-brief {
+.cross .term-list-subject,
+.cross .term-list-brief {
   float: left;
 }
 
-.even .term-list-thumbnail {
+.cross .term-list-thumbnail {
   float: right;
 }
 
@@ -765,7 +765,6 @@ body {
 }
 
 .favorite-list {
-  background-color: yellow;
   list-style-type: none;
 }
 
@@ -796,8 +795,7 @@ body {
   width: 20px;
   height: 11px;
   margin-top: 4.5px;
-  background: url(./images/rank.png) no-repeat 50% 0%;
-  background-color: pink;
+  background: url(./images/rank.png) no-repeat top;
   position: absolute;
   top: 50%;
   right: 0;
